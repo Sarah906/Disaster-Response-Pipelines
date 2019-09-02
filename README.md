@@ -31,8 +31,11 @@ python process_data.py data/disaster_messages.csv data/disaster_categories.csv d
 
 **Run train_classifier.py**
 
-python train_classifier.py DB.db models/classifier.pkl
+python train_classifier.py DB.db data/classifier.pkl
 
+**Run the following command in the app's directory to run your web app. python run.py
+
+Go to http://0.0.0.0:3001/
 
 ## Results
 
