@@ -32,3 +32,10 @@ python process_data.py data/disaster_messages.csv data/disaster_categories.csv d
 **Run train_classifier.py**
 
 python train_classifier.py DB.db models/classifier.pkl
+
+
+## Results
+
+An ETL pipleline was built to read data from two csv files, clean data, and save data into a SQLite database.
+A machine learning pipepline was developed to train a classifier to performs multi-output classification on the 36 categories in the dataset.
+A Flask app was created to show data visualization and classify the message that user enters on the web page.
